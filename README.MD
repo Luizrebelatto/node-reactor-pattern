@@ -1,4 +1,5 @@
 # Node Reactor Pattern
+
 The reactor in Node.js is the event-based model that allows asynchronous operations to be processed efficiently using the Event Loop.
 
 # Topics
@@ -24,3 +25,6 @@ The reactor in Node.js is the event-based model that allows asynchronous operati
 ## Events
 - handle asynchronous events and tasks
 - even though it is single-threaded
+
+## Links
+https://www.geeksforgeeks.org/node-js/what-is-reactor-pattern-in-node-js/
