@@ -1,14 +1,13 @@
-const fs = require("fs");
+const fs = require('fs');
 
-console.log("Begin");
+console.log("Start reading file...");
 
-fs.readFile("file.txt", "utf8", (err, data) => {
-  console.log("file readed");
-  console.log(data);
+fs.readFile('example.txt', 'utf8', (err, data) => {
+    if (err) {
+        console.error("Error reading file:", err);
+        return;
+    }
+    console.log("File content:", data);
 });
 
-setTimeout(() => {
-  console.log("Timeout executed");
-}, 0);
-
-console.log("end");
+console.log("Reading file and not waiting for it to finish...");
